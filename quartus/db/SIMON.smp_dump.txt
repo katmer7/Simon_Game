@@ -1,0 +1,23 @@
+
+State Machine - |SIMON|CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|estado
+Name estado.partida_terminada estado.wait_columna_clr estado.comprobar_clr estado.detectar_tecla_clr estado.mostrar_secuencia estado.introducir_clr 
+estado.introducir_clr 0 0 0 0 0 0 
+estado.mostrar_secuencia 0 0 0 0 1 1 
+estado.detectar_tecla_clr 0 0 0 1 0 1 
+estado.comprobar_clr 0 0 1 0 0 1 
+estado.wait_columna_clr 0 1 0 0 0 1 
+estado.partida_terminada 1 0 0 0 0 1 
+
+State Machine - |SIMON|CONTROL:CONTROL_C|gen_sec_alt_color:GEN_SEC|estado
+Name estado.amarillo estado.verde estado.rojo 
+estado.rojo 0 0 0 
+estado.verde 0 1 1 
+estado.amarillo 1 0 1 
+
+State Machine - |SIMON|CONTROL:CONTROL_C|control_configuracion:CNTRL_CONFIG|estado
+Name estado.finPartida estado.Partida estado.rEConF estado.LongitudConF estado.InicioConF 
+estado.InicioConF 0 0 0 0 0 
+estado.LongitudConF 0 0 0 1 1 
+estado.rEConF 0 0 1 0 1 
+estado.Partida 0 1 0 0 1 
+estado.finPartida 1 0 0 0 1 

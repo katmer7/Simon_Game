@@ -1,0 +1,704 @@
+Analysis & Synthesis report for SIMON
+Fri May 26 16:19:53 2017
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis RAM Summary
+  9. State Machine - |SIMON|CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|estado
+ 10. State Machine - |SIMON|CONTROL:CONTROL_C|gen_sec_alt_color:GEN_SEC|estado
+ 11. State Machine - |SIMON|CONTROL:CONTROL_C|control_configuracion:CNTRL_CONFIG|estado
+ 12. Logic Cells Representing Combinational Loops
+ 13. Registers Removed During Synthesis
+ 14. General Register Statistics
+ 15. Inverted Register Statistics
+ 16. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 17. Source assignments for memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component|altsyncram_98o3:auto_generated
+ 18. Parameter Settings for User Entity Instance: memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component
+ 19. altsyncram Parameter Settings by Entity Instance
+ 20. Port Connectivity Checks: "memoria_color:MEMORIA|ram_2port:U_MEM"
+ 21. Post-Synthesis Netlist Statistics for Top Partition
+ 22. Elapsed Time Per Partition
+ 23. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri May 26 16:19:53 2017       ;
+; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
+; Revision Name                      ; SIMON                                       ;
+; Top-level Entity Name              ; SIMON                                       ;
+; Family                             ; MAX 10                                      ;
+; Total logic elements               ; 1,429                                       ;
+;     Total combinational functions  ; 1,381                                       ;
+;     Dedicated logic registers      ; 233                                         ;
+; Total registers                    ; 233                                         ;
+; Total pins                         ; 32                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 32,768                                      ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
+; UFM blocks                         ; 0                                           ;
+; ADC blocks                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; 10M50DAF484C6GES   ;                    ;
+; Top-level entity name                                                      ; SIMON              ; SIMON              ;
+; Family name                                                                ; MAX 10             ; Cyclone V          ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                     ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                 ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------+---------+
+; ../hdl/timer.vhd                 ; yes             ; User VHDL File               ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/timer.vhd                  ;         ;
+; ../hdl/SIMON.vhd                 ; yes             ; User VHDL File               ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd                  ;         ;
+; ../hdl/ram_2port.vhd             ; yes             ; User Wizard-Generated File   ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd              ;         ;
+; ../hdl/presentacionLeds.vhd      ; yes             ; User VHDL File               ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionLeds.vhd       ;         ;
+; ../hdl/presentacionDisplays.vhd  ; yes             ; User VHDL File               ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionDisplays.vhd   ;         ;
+; ../hdl/memoria_color.vhd         ; yes             ; User VHDL File               ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/memoria_color.vhd          ;         ;
+; ../hdl/gen_sec_alt_color.vhd     ; yes             ; User VHDL File               ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/gen_sec_alt_color.vhd      ;         ;
+; ../hdl/ctrl_tec.vhd              ; yes             ; User VHDL File               ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ctrl_tec.vhd               ;         ;
+; ../hdl/control_modo_juego.vhd    ; yes             ; User VHDL File               ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_modo_juego.vhd     ;         ;
+; ../hdl/control_configuracion.vhd ; yes             ; User VHDL File               ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_configuracion.vhd  ;         ;
+; ../hdl/CONTROL.vhd               ; yes             ; User VHDL File               ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd                ;         ;
+; ../hdl/bin_to_bcd.vhd            ; yes             ; User VHDL File               ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/bin_to_bcd.vhd             ;         ;
+; altsyncram.tdf                   ; yes             ; Megafunction                 ; c:/altera_lite/16.0/quartus/libraries/megafunctions/altsyncram.tdf                           ;         ;
+; stratix_ram_block.inc            ; yes             ; Megafunction                 ; c:/altera_lite/16.0/quartus/libraries/megafunctions/stratix_ram_block.inc                    ;         ;
+; lpm_mux.inc                      ; yes             ; Megafunction                 ; c:/altera_lite/16.0/quartus/libraries/megafunctions/lpm_mux.inc                              ;         ;
+; lpm_decode.inc                   ; yes             ; Megafunction                 ; c:/altera_lite/16.0/quartus/libraries/megafunctions/lpm_decode.inc                           ;         ;
+; aglobal160.inc                   ; yes             ; Megafunction                 ; c:/altera_lite/16.0/quartus/libraries/megafunctions/aglobal160.inc                           ;         ;
+; a_rdenreg.inc                    ; yes             ; Megafunction                 ; c:/altera_lite/16.0/quartus/libraries/megafunctions/a_rdenreg.inc                            ;         ;
+; altrom.inc                       ; yes             ; Megafunction                 ; c:/altera_lite/16.0/quartus/libraries/megafunctions/altrom.inc                               ;         ;
+; altram.inc                       ; yes             ; Megafunction                 ; c:/altera_lite/16.0/quartus/libraries/megafunctions/altram.inc                               ;         ;
+; altdpram.inc                     ; yes             ; Megafunction                 ; c:/altera_lite/16.0/quartus/libraries/megafunctions/altdpram.inc                             ;         ;
+; db/altsyncram_98o3.tdf           ; yes             ; Auto-Generated Megafunction  ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/quartus/db/altsyncram_98o3.tdf ;         ;
+; db/decode_97a.tdf                ; yes             ; Auto-Generated Megafunction  ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/quartus/db/decode_97a.tdf      ;         ;
+; db/decode_2j9.tdf                ; yes             ; Auto-Generated Megafunction  ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/quartus/db/decode_2j9.tdf      ;         ;
+; db/mux_j1b.tdf                   ; yes             ; Auto-Generated Megafunction  ; C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/quartus/db/mux_j1b.tdf         ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------------------------+---------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                                                ;
++---------------------------------------------+--------------------------------------------------------------+
+; Resource                                    ; Usage                                                        ;
++---------------------------------------------+--------------------------------------------------------------+
+; Estimated Total logic elements              ; 1,429                                                        ;
+;                                             ;                                                              ;
+; Total combinational functions               ; 1381                                                         ;
+; Logic element usage by number of LUT inputs ;                                                              ;
+;     -- 4 input functions                    ; 757                                                          ;
+;     -- 3 input functions                    ; 246                                                          ;
+;     -- <=2 input functions                  ; 378                                                          ;
+;                                             ;                                                              ;
+; Logic elements by mode                      ;                                                              ;
+;     -- normal mode                          ; 1084                                                         ;
+;     -- arithmetic mode                      ; 297                                                          ;
+;                                             ;                                                              ;
+; Total registers                             ; 233                                                          ;
+;     -- Dedicated logic registers            ; 233                                                          ;
+;     -- I/O registers                        ; 0                                                            ;
+;                                             ;                                                              ;
+; I/O pins                                    ; 32                                                           ;
+; Total memory bits                           ; 32768                                                        ;
+;                                             ;                                                              ;
+; Embedded Multiplier 9-bit elements          ; 0                                                            ;
+;                                             ;                                                              ;
+; Maximum fan-out node                        ; CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|fin_partida ;
+; Maximum fan-out                             ; 251                                                          ;
+; Total fan-out                               ; 5603                                                         ;
+; Average fan-out                             ; 3.33                                                         ;
++---------------------------------------------+--------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                        ;
++----------------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------------------------------------------------------+-----------------------+--------------+
+; Compilation Hierarchy Node                   ; LC Combinationals ; LC Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                                            ; Entity Name           ; Library Name ;
++----------------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------------------------------------------------------+-----------------------+--------------+
+; |SIMON                                       ; 1381 (1)          ; 233 (0)      ; 32768       ; 0          ; 0            ; 0       ; 0         ; 32   ; 0            ; 0          ; |SIMON                                                                                                                         ; SIMON                 ; work         ;
+;    |CONTROL:CONTROL_C|                       ; 252 (0)           ; 131 (0)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|CONTROL:CONTROL_C                                                                                                       ; CONTROL               ; work         ;
+;       |control_configuracion:CNTRL_CONFIG|   ; 116 (116)         ; 51 (51)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|CONTROL:CONTROL_C|control_configuracion:CNTRL_CONFIG                                                                    ; control_configuracion ; work         ;
+;       |control_modo_juego:CNRTL_JUEGO|       ; 132 (132)         ; 77 (77)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO                                                                        ; control_modo_juego    ; work         ;
+;       |gen_sec_alt_color:GEN_SEC|            ; 4 (4)             ; 3 (3)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|CONTROL:CONTROL_C|gen_sec_alt_color:GEN_SEC                                                                             ; gen_sec_alt_color     ; work         ;
+;    |bin_to_bcd:CONVERSOR_BIN_TO_BCD|         ; 814 (814)         ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD                                                                                         ; bin_to_bcd            ; work         ;
+;    |ctrl_tec:TECLADO|                        ; 30 (30)           ; 22 (22)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|ctrl_tec:TECLADO                                                                                                        ; ctrl_tec              ; work         ;
+;    |memoria_color:MEMORIA|                   ; 81 (77)           ; 45 (43)      ; 32768       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|memoria_color:MEMORIA                                                                                                   ; memoria_color         ; work         ;
+;       |ram_2port:U_MEM|                      ; 4 (0)             ; 2 (0)        ; 32768       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|memoria_color:MEMORIA|ram_2port:U_MEM                                                                                   ; ram_2port             ; work         ;
+;          |altsyncram:altsyncram_component|   ; 4 (0)             ; 2 (0)        ; 32768       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component                                                   ; altsyncram            ; work         ;
+;             |altsyncram_98o3:auto_generated| ; 4 (0)             ; 2 (2)        ; 32768       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component|altsyncram_98o3:auto_generated                    ; altsyncram_98o3       ; work         ;
+;                |decode_97a:decode2|          ; 2 (2)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component|altsyncram_98o3:auto_generated|decode_97a:decode2 ; decode_97a            ; work         ;
+;                |mux_j1b:mux3|                ; 2 (2)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component|altsyncram_98o3:auto_generated|mux_j1b:mux3       ; mux_j1b               ; work         ;
+;    |presentacionDisplays:PRESENTAR_DISP|     ; 147 (147)         ; 9 (9)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|presentacionDisplays:PRESENTAR_DISP                                                                                     ; presentacionDisplays  ; work         ;
+;    |presentacionLeds:PRESENTAR_LEDS|         ; 7 (7)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|presentacionLeds:PRESENTAR_LEDS                                                                                         ; presentacionLeds      ; work         ;
+;    |timer:TEMPORIZADOR|                      ; 49 (49)           ; 26 (26)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SIMON|timer:TEMPORIZADOR                                                                                                      ; timer                 ; work         ;
++----------------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------------------------------------------------------+-----------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis RAM Summary                                                                                                                                                                                     ;
++-----------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+------+
+; Name                                                                                                            ; Type ; Mode             ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF  ;
++-----------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+------+
+; memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component|altsyncram_98o3:auto_generated|ALTSYNCRAM ; AUTO ; Simple Dual Port ; 16384        ; 2            ; 16384        ; 2            ; 32768 ; None ;
++-----------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; State Machine - |SIMON|CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|estado                                                                                                       ;
++---------------------------+--------------------------+-------------------------+----------------------+---------------------------+--------------------------+-----------------------+
+; Name                      ; estado.partida_terminada ; estado.wait_columna_clr ; estado.comprobar_clr ; estado.detectar_tecla_clr ; estado.mostrar_secuencia ; estado.introducir_clr ;
++---------------------------+--------------------------+-------------------------+----------------------+---------------------------+--------------------------+-----------------------+
+; estado.introducir_clr     ; 0                        ; 0                       ; 0                    ; 0                         ; 0                        ; 0                     ;
+; estado.mostrar_secuencia  ; 0                        ; 0                       ; 0                    ; 0                         ; 1                        ; 1                     ;
+; estado.detectar_tecla_clr ; 0                        ; 0                       ; 0                    ; 1                         ; 0                        ; 1                     ;
+; estado.comprobar_clr      ; 0                        ; 0                       ; 1                    ; 0                         ; 0                        ; 1                     ;
+; estado.wait_columna_clr   ; 0                        ; 1                       ; 0                    ; 0                         ; 0                        ; 1                     ;
+; estado.partida_terminada  ; 1                        ; 0                       ; 0                    ; 0                         ; 0                        ; 1                     ;
++---------------------------+--------------------------+-------------------------+----------------------+---------------------------+--------------------------+-----------------------+
+
+
+Encoding Type:  One-Hot
++---------------------------------------------------------------------------+
+; State Machine - |SIMON|CONTROL:CONTROL_C|gen_sec_alt_color:GEN_SEC|estado ;
++-----------------+-----------------+--------------+------------------------+
+; Name            ; estado.amarillo ; estado.verde ; estado.rojo            ;
++-----------------+-----------------+--------------+------------------------+
+; estado.rojo     ; 0               ; 0            ; 0                      ;
+; estado.verde    ; 0               ; 1            ; 1                      ;
+; estado.amarillo ; 1               ; 0            ; 1                      ;
++-----------------+-----------------+--------------+------------------------+
+
+
+Encoding Type:  One-Hot
++--------------------------------------------------------------------------------------------------------------------+
+; State Machine - |SIMON|CONTROL:CONTROL_C|control_configuracion:CNTRL_CONFIG|estado                                 ;
++---------------------+-------------------+----------------+---------------+---------------------+-------------------+
+; Name                ; estado.finPartida ; estado.Partida ; estado.rEConF ; estado.LongitudConF ; estado.InicioConF ;
++---------------------+-------------------+----------------+---------------+---------------------+-------------------+
+; estado.InicioConF   ; 0                 ; 0              ; 0             ; 0                   ; 0                 ;
+; estado.LongitudConF ; 0                 ; 0              ; 0             ; 1                   ; 1                 ;
+; estado.rEConF       ; 0                 ; 0              ; 1             ; 0                   ; 1                 ;
+; estado.Partida      ; 0                 ; 1              ; 0             ; 0                   ; 1                 ;
+; estado.finPartida   ; 1                 ; 0              ; 0             ; 0                   ; 1                 ;
++---------------------+-------------------+----------------+---------------+---------------------+-------------------+
+
+
++------------------------------------------------------------+
+; Logic Cells Representing Combinational Loops               ;
++--------------------------------------------------------+---+
+; Logic Cell Name                                        ;   ;
++--------------------------------------------------------+---+
+; memoria_color:MEMORIA|we_mem                           ;   ;
+; Number of logic cells representing combinational loops ; 1 ;
++--------------------------------------------------------+---+
+Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                                ;
++--------------------------------------------------------+--------------------------------------------------------------------------+
+; Register name                                          ; Reason for Removal                                                       ;
++--------------------------------------------------------+--------------------------------------------------------------------------+
+; ctrl_tec:TECLADO|reg_tecla                             ; Merged with ctrl_tec:TECLADO|duracion_pulso_reg                          ;
+; CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|reset ; Merged with CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|fin_partida ;
+; Total Number of Removed Registers = 2                  ;                                                                          ;
++--------------------------------------------------------+--------------------------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 233   ;
+; Number of registers using Synchronous Clear  ; 67    ;
+; Number of registers using Synchronous Load   ; 16    ;
+; Number of registers using Asynchronous Clear ; 230   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 150   ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------+
+; Inverted Register Statistics                                                          ;
++-----------------------------------------------------------------------------+---------+
+; Inverted Register                                                           ; Fan out ;
++-----------------------------------------------------------------------------+---------+
+; timer:TEMPORIZADOR|cnt_tic_1ms[0]                                           ; 2       ;
+; ctrl_tec:TECLADO|fila[1]                                                    ; 9       ;
+; ctrl_tec:TECLADO|fila[2]                                                    ; 9       ;
+; ctrl_tec:TECLADO|fila[3]                                                    ; 9       ;
+; presentacionDisplays:PRESENTAR_DISP|ctrl_mux[5]                             ; 8       ;
+; presentacionDisplays:PRESENTAR_DISP|ctrl_mux[1]                             ; 5       ;
+; presentacionDisplays:PRESENTAR_DISP|ctrl_mux[2]                             ; 10      ;
+; presentacionDisplays:PRESENTAR_DISP|ctrl_mux[6]                             ; 8       ;
+; presentacionDisplays:PRESENTAR_DISP|ctrl_mux[7]                             ; 5       ;
+; presentacionDisplays:PRESENTAR_DISP|ctrl_mux[3]                             ; 8       ;
+; presentacionDisplays:PRESENTAR_DISP|ctrl_mux[4]                             ; 8       ;
+; CONTROL:CONTROL_C|control_configuracion:CNTRL_CONFIG|longitud_programada[5] ; 7       ;
+; CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|posicion_secuencia[0]      ; 3       ;
+; CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|cuenta_num_mostrado[0]     ; 3       ;
+; timer:TEMPORIZADOR|cnt_tic_1s[0]                                            ; 4       ;
+; ctrl_tec:TECLADO|col[2]                                                     ; 11      ;
+; ctrl_tec:TECLADO|col[0]                                                     ; 10      ;
+; ctrl_tec:TECLADO|col[3]                                                     ; 8       ;
+; ctrl_tec:TECLADO|col[1]                                                     ; 8       ;
+; ctrl_tec:TECLADO|colr_2[3]                                                  ; 2       ;
+; ctrl_tec:TECLADO|colr_2[2]                                                  ; 2       ;
+; ctrl_tec:TECLADO|colr_2[1]                                                  ; 2       ;
+; ctrl_tec:TECLADO|colr_2[0]                                                  ; 2       ;
+; CONTROL:CONTROL_C|control_configuracion:CNTRL_CONFIG|primera_partida        ; 2       ;
+; ctrl_tec:TECLADO|colr_1[3]                                                  ; 1       ;
+; ctrl_tec:TECLADO|colr_1[2]                                                  ; 1       ;
+; ctrl_tec:TECLADO|colr_1[1]                                                  ; 1       ;
+; ctrl_tec:TECLADO|colr_1[0]                                                  ; 1       ;
+; Total number of inverted registers = 28                                     ;         ;
++-----------------------------------------------------------------------------+---------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------+
+; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |SIMON|CONTROL:CONTROL_C|control_configuracion:CNTRL_CONFIG|puntuacion_out[3]       ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |SIMON|memoria_color:MEMORIA|num_colores[4]                                         ;
+; 3:1                ; 9 bits    ; 18 LEs        ; 9 LEs                ; 9 LEs                  ; Yes        ; |SIMON|timer:TEMPORIZADOR|cnt_tic_1s[4]                                             ;
+; 3:1                ; 13 bits   ; 26 LEs        ; 13 LEs               ; 13 LEs                 ; Yes        ; |SIMON|CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|posicion_secuencia[12]      ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |SIMON|memoria_color:MEMORIA|add_rd[7]                                              ;
+; 3:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |SIMON|CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|puntuacion_almacenada[5]    ;
+; 4:1                ; 14 bits   ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; Yes        ; |SIMON|CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|puntuacion[2]               ;
+; 3:1                ; 13 bits   ; 26 LEs        ; 13 LEs               ; 13 LEs                 ; Yes        ; |SIMON|CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|cuenta_num_mostrado[13]     ;
+; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; Yes        ; |SIMON|CONTROL:CONTROL_C|control_configuracion:CNTRL_CONFIG|longitud_programada[15] ;
+; 5:1                ; 11 bits   ; 33 LEs        ; 22 LEs               ; 11 LEs                 ; Yes        ; |SIMON|CONTROL:CONTROL_C|control_configuracion:CNTRL_CONFIG|longitud_programada[7]  ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |SIMON|CONTROL:CONTROL_C|gen_sec_alt_color:GEN_SEC|clr_picked[1]                    ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |SIMON|presentacionLeds:PRESENTAR_LEDS|color_salida_aux[0]                          ;
+; 5:1                ; 12 bits   ; 36 LEs        ; 36 LEs               ; 0 LEs                  ; No         ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD|dato_bin[1]                                  ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 8 LEs                ; 2 LEs                  ; No         ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD|cuenta_num_mostrado_bcd[13]                  ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 8 LEs                ; 2 LEs                  ; No         ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD|cuenta_num_mostrado_bcd[6]                   ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 8 LEs                ; 2 LEs                  ; No         ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD|num_memoria_bcd[14]                          ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 8 LEs                ; 2 LEs                  ; No         ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD|num_memoria_bcd[6]                           ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 8 LEs                ; 2 LEs                  ; No         ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD|cuenta_num_mostrado_bcd[10]                  ;
+; 8:1                ; 2 bits    ; 10 LEs        ; 8 LEs                ; 2 LEs                  ; No         ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD|num_memoria_bcd[10]                          ;
+; 10:1               ; 2 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD|auxiliar_dec_dato                            ;
+; 11:1               ; 2 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; No         ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD|auxiliar_dec[5]                              ;
+; 11:1               ; 4 bits    ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; No         ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD|auxiliar_cent_dato[7]                        ;
+; 11:1               ; 4 bits    ; 28 LEs        ; 28 LEs               ; 0 LEs                  ; No         ; |SIMON|bin_to_bcd:CONVERSOR_BIN_TO_BCD|auxiliar_cent[7]                             ;
+; 13:1               ; 6 bits    ; 48 LEs        ; 36 LEs               ; 12 LEs                 ; No         ; |SIMON|CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO|Selector4                   ;
+; 13:1               ; 5 bits    ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; No         ; |SIMON|CONTROL:CONTROL_C|control_configuracion:CNTRL_CONFIG|Selector0               ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Source assignments for memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component|altsyncram_98o3:auto_generated ;
++---------------------------------+--------------------+------+---------------------------------------------------------------+
+; Assignment                      ; Value              ; From ; To                                                            ;
++---------------------------------+--------------------+------+---------------------------------------------------------------+
+; OPTIMIZE_POWER_DURING_SYNTHESIS ; NORMAL_COMPILATION ; -    ; -                                                             ;
++---------------------------------+--------------------+------+---------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component ;
++------------------------------------+----------------------+--------------------------------------------------------+
+; Parameter Name                     ; Value                ; Type                                                   ;
++------------------------------------+----------------------+--------------------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                    ; Untyped                                                ;
+; AUTO_CARRY_CHAINS                  ; ON                   ; AUTO_CARRY                                             ;
+; IGNORE_CARRY_BUFFERS               ; OFF                  ; IGNORE_CARRY                                           ;
+; AUTO_CASCADE_CHAINS                ; ON                   ; AUTO_CASCADE                                           ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                  ; IGNORE_CASCADE                                         ;
+; WIDTH_BYTEENA                      ; 1                    ; Untyped                                                ;
+; OPERATION_MODE                     ; DUAL_PORT            ; Untyped                                                ;
+; WIDTH_A                            ; 2                    ; Signed Integer                                         ;
+; WIDTHAD_A                          ; 14                   ; Signed Integer                                         ;
+; NUMWORDS_A                         ; 16384                ; Signed Integer                                         ;
+; OUTDATA_REG_A                      ; UNREGISTERED         ; Untyped                                                ;
+; ADDRESS_ACLR_A                     ; NONE                 ; Untyped                                                ;
+; OUTDATA_ACLR_A                     ; NONE                 ; Untyped                                                ;
+; WRCONTROL_ACLR_A                   ; NONE                 ; Untyped                                                ;
+; INDATA_ACLR_A                      ; NONE                 ; Untyped                                                ;
+; BYTEENA_ACLR_A                     ; NONE                 ; Untyped                                                ;
+; WIDTH_B                            ; 2                    ; Signed Integer                                         ;
+; WIDTHAD_B                          ; 14                   ; Signed Integer                                         ;
+; NUMWORDS_B                         ; 16384                ; Signed Integer                                         ;
+; INDATA_REG_B                       ; CLOCK1               ; Untyped                                                ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1               ; Untyped                                                ;
+; RDCONTROL_REG_B                    ; CLOCK1               ; Untyped                                                ;
+; ADDRESS_REG_B                      ; CLOCK0               ; Untyped                                                ;
+; OUTDATA_REG_B                      ; CLOCK0               ; Untyped                                                ;
+; BYTEENA_REG_B                      ; CLOCK1               ; Untyped                                                ;
+; INDATA_ACLR_B                      ; NONE                 ; Untyped                                                ;
+; WRCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                ;
+; ADDRESS_ACLR_B                     ; CLEAR0               ; Untyped                                                ;
+; OUTDATA_ACLR_B                     ; CLEAR0               ; Untyped                                                ;
+; RDCONTROL_ACLR_B                   ; NONE                 ; Untyped                                                ;
+; BYTEENA_ACLR_B                     ; NONE                 ; Untyped                                                ;
+; WIDTH_BYTEENA_A                    ; 1                    ; Signed Integer                                         ;
+; WIDTH_BYTEENA_B                    ; 1                    ; Signed Integer                                         ;
+; RAM_BLOCK_TYPE                     ; AUTO                 ; Untyped                                                ;
+; BYTE_SIZE                          ; 8                    ; Signed Integer                                         ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE            ; Untyped                                                ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ ; Untyped                                                ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ ; Untyped                                                ;
+; INIT_FILE                          ; UNUSED               ; Untyped                                                ;
+; INIT_FILE_LAYOUT                   ; PORT_A               ; Untyped                                                ;
+; MAXIMUM_DEPTH                      ; 0                    ; Signed Integer                                         ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS               ; Untyped                                                ;
+; CLOCK_ENABLE_INPUT_B               ; BYPASS               ; Untyped                                                ;
+; CLOCK_ENABLE_OUTPUT_A              ; NORMAL               ; Untyped                                                ;
+; CLOCK_ENABLE_OUTPUT_B              ; BYPASS               ; Untyped                                                ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN      ; Untyped                                                ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN      ; Untyped                                                ;
+; ENABLE_ECC                         ; FALSE                ; Untyped                                                ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                ; Untyped                                                ;
+; WIDTH_ECCSTATUS                    ; 3                    ; Signed Integer                                         ;
+; DEVICE_FAMILY                      ; MAX 10               ; Untyped                                                ;
+; CBXI_PARAMETER                     ; altsyncram_98o3      ; Untyped                                                ;
++------------------------------------+----------------------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; altsyncram Parameter Settings by Entity Instance                                                                  ;
++-------------------------------------------+-----------------------------------------------------------------------+
+; Name                                      ; Value                                                                 ;
++-------------------------------------------+-----------------------------------------------------------------------+
+; Number of entity instances                ; 1                                                                     ;
+; Entity Instance                           ; memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component ;
+;     -- OPERATION_MODE                     ; DUAL_PORT                                                             ;
+;     -- WIDTH_A                            ; 2                                                                     ;
+;     -- NUMWORDS_A                         ; 16384                                                                 ;
+;     -- OUTDATA_REG_A                      ; UNREGISTERED                                                          ;
+;     -- WIDTH_B                            ; 2                                                                     ;
+;     -- NUMWORDS_B                         ; 16384                                                                 ;
+;     -- ADDRESS_REG_B                      ; CLOCK0                                                                ;
+;     -- OUTDATA_REG_B                      ; CLOCK0                                                                ;
+;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                  ;
+;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                             ;
++-------------------------------------------+-----------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------+
+; Port Connectivity Checks: "memoria_color:MEMORIA|ram_2port:U_MEM" ;
++------+-------+----------+-----------------------------------------+
+; Port ; Type  ; Severity ; Details                                 ;
++------+-------+----------+-----------------------------------------+
+; aclr ; Input ; Info     ; Stuck at GND                            ;
++------+-------+----------+-----------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 32                          ;
+; cycloneiii_ff         ; 233                         ;
+;     CLR               ; 51                          ;
+;     CLR SCLR          ; 14                          ;
+;     CLR SLD           ; 16                          ;
+;     ENA               ; 1                           ;
+;     ENA CLR           ; 96                          ;
+;     ENA CLR SCLR      ; 53                          ;
+;     plain             ; 2                           ;
+; cycloneiii_lcell_comb ; 1395                        ;
+;     arith             ; 297                         ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 206                         ;
+;         3 data inputs ; 90                          ;
+;     normal            ; 1098                        ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 51                          ;
+;         2 data inputs ; 132                         ;
+;         3 data inputs ; 156                         ;
+;         4 data inputs ; 757                         ;
+; cycloneiii_ram_block  ; 4                           ;
+;                       ;                             ;
+; Max LUT depth         ; 39.30                       ;
+; Average LUT depth     ; 23.46                       ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:07     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+    Info: Processing started: Fri May 26 16:19:23 2017
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SIMON -c SIMON
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/timer.vhd
+    Info (12022): Found design unit 1: timer-rtl File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/timer.vhd Line: 23
+    Info (12023): Found entity 1: timer File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/timer.vhd Line: 12
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/simon.vhd
+    Info (12022): Found design unit 1: SIMON-struct File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd Line: 17
+    Info (12023): Found entity 1: SIMON File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/ram_2port.vhd
+    Info (12022): Found design unit 1: ram_2port-SYN File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd Line: 57
+    Info (12023): Found entity 1: ram_2port File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/presentacionleds.vhd
+    Info (12022): Found design unit 1: presentacionLeds-rtl File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionLeds.vhd Line: 24
+    Info (12023): Found entity 1: presentacionLeds File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionLeds.vhd Line: 8
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/presentaciondisplays.vhd
+    Info (12022): Found design unit 1: presentacionDisplays-rtl File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionDisplays.vhd Line: 34
+    Info (12023): Found entity 1: presentacionDisplays File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionDisplays.vhd Line: 9
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/memoria_color.vhd
+    Info (12022): Found design unit 1: memoria_color-rtl File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/memoria_color.vhd Line: 29
+    Info (12023): Found entity 1: memoria_color File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/memoria_color.vhd Line: 11
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/gen_sec_alt_color.vhd
+    Info (12022): Found design unit 1: gen_sec_alt_color-rtl File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/gen_sec_alt_color.vhd Line: 20
+    Info (12023): Found entity 1: gen_sec_alt_color File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/gen_sec_alt_color.vhd Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/ctrl_tec.vhd
+    Info (12022): Found design unit 1: ctrl_tec-rtl File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ctrl_tec.vhd Line: 25
+    Info (12023): Found entity 1: ctrl_tec File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ctrl_tec.vhd Line: 10
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/control_modo_juego.vhd
+    Info (12022): Found design unit 1: control_modo_juego-rtl File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_modo_juego.vhd Line: 55
+    Info (12023): Found entity 1: control_modo_juego File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_modo_juego.vhd Line: 26
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/control_configuracion.vhd
+    Info (12022): Found design unit 1: control_configuracion-rtl File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_configuracion.vhd Line: 42
+    Info (12023): Found entity 1: control_configuracion File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_configuracion.vhd Line: 20
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/control.vhd
+    Info (12022): Found design unit 1: CONTROL-struct File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd Line: 39
+    Info (12023): Found entity 1: CONTROL File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file /users/katherine.mercado.re/desktop/proy_dd2_final_funciona/hdl/bin_to_bcd.vhd
+    Info (12022): Found design unit 1: bin_to_bcd-rtl File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/bin_to_bcd.vhd Line: 29
+    Info (12023): Found entity 1: bin_to_bcd File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/bin_to_bcd.vhd Line: 5
+Info (12127): Elaborating entity "SIMON" for the top level hierarchy
+Info (12129): Elaborating entity "ctrl_tec" using architecture "A:rtl" for hierarchy "ctrl_tec:TECLADO" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd Line: 62
+Info (12129): Elaborating entity "memoria_color" using architecture "A:rtl" for hierarchy "memoria_color:MEMORIA" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd Line: 76
+Warning (10036): Verilog HDL or VHDL warning at memoria_color.vhd(30): object "primera_wr" assigned a value but never read File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/memoria_color.vhd Line: 30
+Info (12129): Elaborating entity "ram_2port" using architecture "A:syn" for hierarchy "memoria_color:MEMORIA|ram_2port:U_MEM" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/memoria_color.vhd Line: 115
+Info (12128): Elaborating entity "altsyncram" for hierarchy "memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd Line: 64
+Info (12130): Elaborated megafunction instantiation "memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd Line: 64
+Info (12133): Instantiated megafunction "memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd Line: 64
+    Info (12134): Parameter "address_aclr_a" = "UNUSED"
+    Info (12134): Parameter "address_aclr_b" = "CLEAR0"
+    Info (12134): Parameter "address_reg_b" = "CLOCK0"
+    Info (12134): Parameter "byte_size" = "8"
+    Info (12134): Parameter "byteena_aclr_a" = "UNUSED"
+    Info (12134): Parameter "byteena_aclr_b" = "NONE"
+    Info (12134): Parameter "byteena_reg_b" = "CLOCK1"
+    Info (12134): Parameter "clock_enable_core_a" = "USE_INPUT_CLKEN"
+    Info (12134): Parameter "clock_enable_core_b" = "USE_INPUT_CLKEN"
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_input_b" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "NORMAL"
+    Info (12134): Parameter "clock_enable_output_b" = "BYPASS"
+    Info (12134): Parameter "intended_device_family" = "MAX 10"
+    Info (12134): Parameter "ecc_pipeline_stage_enabled" = "FALSE"
+    Info (12134): Parameter "enable_ecc" = "FALSE"
+    Info (12134): Parameter "implement_in_les" = "OFF"
+    Info (12134): Parameter "indata_aclr_a" = "UNUSED"
+    Info (12134): Parameter "indata_aclr_b" = "NONE"
+    Info (12134): Parameter "indata_reg_b" = "CLOCK1"
+    Info (12134): Parameter "init_file" = "UNUSED"
+    Info (12134): Parameter "init_file_layout" = "PORT_A"
+    Info (12134): Parameter "maximum_depth" = "0"
+    Info (12134): Parameter "numwords_a" = "16384"
+    Info (12134): Parameter "numwords_b" = "16384"
+    Info (12134): Parameter "operation_mode" = "DUAL_PORT"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_aclr_b" = "CLEAR0"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "outdata_reg_b" = "CLOCK0"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "ram_block_type" = "AUTO"
+    Info (12134): Parameter "rdcontrol_aclr_b" = "NONE"
+    Info (12134): Parameter "rdcontrol_reg_b" = "CLOCK1"
+    Info (12134): Parameter "read_during_write_mode_mixed_ports" = "DONT_CARE"
+    Info (12134): Parameter "read_during_write_mode_port_a" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "read_during_write_mode_port_b" = "NEW_DATA_NO_NBE_READ"
+    Info (12134): Parameter "stratixiv_m144k_allow_dual_clocks" = "ON"
+    Info (12134): Parameter "width_a" = "2"
+    Info (12134): Parameter "width_b" = "2"
+    Info (12134): Parameter "width_byteena_a" = "1"
+    Info (12134): Parameter "width_byteena_b" = "1"
+    Info (12134): Parameter "width_eccstatus" = "3"
+    Info (12134): Parameter "widthad_a" = "14"
+    Info (12134): Parameter "widthad_b" = "14"
+    Info (12134): Parameter "wrcontrol_aclr_a" = "UNUSED"
+    Info (12134): Parameter "wrcontrol_aclr_b" = "NONE"
+    Info (12134): Parameter "wrcontrol_wraddress_reg_b" = "CLOCK1"
+    Info (12134): Parameter "lpm_hint" = "UNUSED"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_98o3.tdf
+    Info (12023): Found entity 1: altsyncram_98o3 File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/quartus/db/altsyncram_98o3.tdf Line: 34
+Info (12128): Elaborating entity "altsyncram_98o3" for hierarchy "memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component|altsyncram_98o3:auto_generated" File: c:/altera_lite/16.0/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_97a.tdf
+    Info (12023): Found entity 1: decode_97a File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/quartus/db/decode_97a.tdf Line: 23
+Info (12128): Elaborating entity "decode_97a" for hierarchy "memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component|altsyncram_98o3:auto_generated|decode_97a:decode2" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/quartus/db/altsyncram_98o3.tdf Line: 47
+Info (12021): Found 1 design units, including 1 entities, in source file db/decode_2j9.tdf
+    Info (12023): Found entity 1: decode_2j9 File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/quartus/db/decode_2j9.tdf Line: 23
+Info (12128): Elaborating entity "decode_2j9" for hierarchy "memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component|altsyncram_98o3:auto_generated|decode_2j9:rden_decode_b" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/quartus/db/altsyncram_98o3.tdf Line: 48
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_j1b.tdf
+    Info (12023): Found entity 1: mux_j1b File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/quartus/db/mux_j1b.tdf Line: 23
+Info (12128): Elaborating entity "mux_j1b" for hierarchy "memoria_color:MEMORIA|ram_2port:U_MEM|altsyncram:altsyncram_component|altsyncram_98o3:auto_generated|mux_j1b:mux3" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/quartus/db/altsyncram_98o3.tdf Line: 50
+Info (12129): Elaborating entity "CONTROL" using architecture "A:struct" for hierarchy "CONTROL:CONTROL_C" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd Line: 93
+Info (12129): Elaborating entity "control_configuracion" using architecture "A:rtl" for hierarchy "CONTROL:CONTROL_C|control_configuracion:CNTRL_CONFIG" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd Line: 47
+Info (12129): Elaborating entity "gen_sec_alt_color" using architecture "A:rtl" for hierarchy "CONTROL:CONTROL_C|gen_sec_alt_color:GEN_SEC" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd Line: 65
+Info (12129): Elaborating entity "control_modo_juego" using architecture "A:rtl" for hierarchy "CONTROL:CONTROL_C|control_modo_juego:CNRTL_JUEGO" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd Line: 72
+Info (12129): Elaborating entity "timer" using architecture "A:rtl" for hierarchy "timer:TEMPORIZADOR" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd Line: 127
+Info (12129): Elaborating entity "bin_to_bcd" using architecture "A:rtl" for hierarchy "bin_to_bcd:CONVERSOR_BIN_TO_BCD" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd Line: 137
+Info (12129): Elaborating entity "presentacionDisplays" using architecture "A:rtl" for hierarchy "presentacionDisplays:PRESENTAR_DISP" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd Line: 158
+Info (12129): Elaborating entity "presentacionLeds" using architecture "A:rtl" for hierarchy "presentacionLeds:PRESENTAR_LEDS" File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd Line: 179
+Info (13000): Registers with preset signals will power-up high File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ctrl_tec.vhd Line: 58
+Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "presentacion[7]" is stuck at GND File: C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd Line: 10
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 1472 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 6 input pins
+    Info (21059): Implemented 26 output pins
+    Info (21061): Implemented 1436 logic cells
+    Info (21064): Implemented 4 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 915 megabytes
+    Info: Processing ended: Fri May 26 16:19:53 2017
+    Info: Elapsed time: 00:00:30
+    Info: Total CPU time (on all processors): 00:00:49
+
+

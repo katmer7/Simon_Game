@@ -1,0 +1,42 @@
+# Compile of bin_to_bcd.vhd was successful.
+# Compile of CONTROL.vhd was successful.
+# Compile of control_configuracion.vhd was successful.
+# Compile of control_modo_juego.vhd was successful.
+# Compile of ctrl_tec.vhd was successful.
+# Compile of gen_sec_alt_color.vhd was successful.
+# Compile of memoria_color.vhd was successful.
+# Compile of presentacionDisplays.vhd was successful.
+# Compile of presentacionLeds.vhd was successful.
+# Compile of ram_2port.vhd was successful.
+# Compile of SIMON.vhd was successful.
+# Compile of timer.vhd was successful.
+# Compile of SIMON_sin_tec.vhd failed.
+# There were 1 file(s) that could not be compiled successfullyCompile of SIMON_sin_tec.vhd failed with 8 errors.
+# Compile of CONTROL.vhd was successful.
+# Compile of SIMON_sin_tec.vhd failed with 8 errors.
+# Compile of SIMON.vhd was successful.
+# Compile of SIMON_sin_tec.vhd failed with 9 errors.
+# Compile of SIMON_sin_tec.vhd failed with 7 errors.
+# Compile of SIMON_sin_tec.vhd failed with 5 errors.
+# Compile of SIMON_sin_tec.vhd failed with 3 errors.
+# Compile of SIMON_sin_tec.vhd failed with 3 errors.
+# Compile of SIMON_sin_tec.vhd was successful.
+# Compile of CONTROL.vhd was successful.
+# Compile of SIMON.vhd was successful.
+# Compile of presentacionDisplays.vhd failed with 1 errors.
+# Compile of presentacionDisplays.vhd failed with 1 errors.
+# Compile of presentacionDisplays.vhd failed with 1 errors.
+# Compile of presentacionDisplays.vhd failed with 1 errors.
+# Compile of presentacionDisplays.vhd was successful.
+# Compile of SIMON.vhd was successful.
+# Compile of ctrl_tec.vhd was successful.
+# Compile of SIMON.vhd was successful.
+# Compile of ctrl_tec.vhd was successful.
+# Compile of SIMON.vhd was successful.
+# Compile of ctrl_tec.vhd was successful.
+# Compile of ctrl_tec.vhd was successful.
+# Compile of SIMON.vhd was successful.
+# Compile of presentacionDisplays.vhd was successful.
+# Compile of SIMON.vhd was successful.
+# Compile of presentacionDisplays.vhd was successful.
+# Compile of SIMON.vhd was successful.

@@ -1,0 +1,762 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\joseti99\Desktop
+Ebin_to_bcd
+Z0 w1495796578
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\katherine.mercado.re\Desktop\PROY_dd2_FINAL_FUNCIONA\modelsim
+Z6 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/bin_to_bcd.vhd
+Z7 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/bin_to_bcd.vhd
+l0
+L5
+V_UPJN;Wh?kDmiCcnH^CCW3
+Z8 OV;C;10.1d;51
+32
+Z9 !s108 1495806040.702000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/bin_to_bcd.vhd|
+Z11 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/bin_to_bcd.vhd|
+Z12 o-work work -2002 -explicit -O0
+Z13 tExplicit 1
+!s100 KOfk;W8]nRl6`:Vc=AALY2
+!i10b 1
+Artl
+R1
+R2
+R3
+R4
+Z14 DEx4 work 10 bin_to_bcd 0 22 _UPJN;Wh?kDmiCcnH^CCW3
+l53
+L29
+VOWJNk4mS>bBb:DHbMZD1>1
+R8
+32
+R9
+R10
+R11
+R12
+R13
+!s100 FH9[TGRoD;YHPP5ZIB9Be2
+!i10b 1
+Econtrol
+Z15 w1495795544
+R3
+R4
+R5
+Z16 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd
+Z17 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd
+l0
+L4
+VLVg9bYRDRjD_VRhC6J4^21
+R8
+32
+Z18 !s108 1495806308.368000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd|
+Z20 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd|
+R12
+R13
+!s100 _83PASWU:HJIL]9JU2i890
+!i10b 1
+Astruct
+Z21 DEx4 work 18 control_modo_juego 0 22 :0gAnnlPD4DjW606Tg1O71
+Z22 DEx4 work 17 gen_sec_alt_color 0 22 h8OU=WYmSIYWmhfIjW9<i2
+R1
+R2
+Z23 DEx4 work 21 control_configuracion 0 22 TZYIQkQGPl?DWe:mX5zD42
+R3
+R4
+Z24 DEx4 work 7 control 0 22 LVg9bYRDRjD_VRhC6J4^21
+l45
+L39
+VB^inLljD5C:T:[ScP^6<13
+R8
+32
+R18
+R19
+R20
+R12
+R13
+!s100 g?<fG@d[@UK4A0;N?hX_W3
+!i10b 1
+Econtrol_configuracion
+Z25 w1495801384
+R1
+R2
+R3
+R4
+R5
+Z26 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_configuracion.vhd
+Z27 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_configuracion.vhd
+l0
+L20
+VTZYIQkQGPl?DWe:mX5zD42
+R8
+32
+Z28 !s108 1495806041.202000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_configuracion.vhd|
+Z30 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_configuracion.vhd|
+R12
+R13
+!s100 Q<KPiR16gQGLSE8ai2iaY3
+!i10b 1
+Artl
+R1
+R2
+R3
+R4
+R23
+l54
+L42
+ViI9`k7:]UC?:GUo]O@eG_2
+R8
+32
+R28
+R29
+R30
+R12
+R13
+!s100 WJ9cIDLaZ]@E=MOiUNLHS2
+!i10b 1
+Econtrol_modo_juego
+Z31 w1495801092
+R1
+R2
+R3
+R4
+R5
+Z32 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_modo_juego.vhd
+Z33 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_modo_juego.vhd
+l0
+L26
+V:0gAnnlPD4DjW606Tg1O71
+R8
+32
+Z34 !s108 1495806041.436000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_modo_juego.vhd|
+Z36 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_modo_juego.vhd|
+R12
+R13
+!s100 ;>1Qb12?12lU;mCm4ehdH0
+!i10b 1
+Artl
+R1
+R2
+R3
+R4
+R21
+l78
+L55
+V=0YdRDLl>>nl]mGlln0lR0
+R8
+32
+R34
+R35
+R36
+R12
+R13
+!s100 Z>42WZ`QIgR4eOKWBWAYW3
+!i10b 1
+Ectrl_tec
+Z37 w1495807997
+R1
+R2
+R3
+R4
+R5
+Z38 8C:\Users\katherine.mercado.re\Desktop\PROY_dd2_FINAL_FUNCIONA\hdl\ctrl_tec.vhd
+Z39 FC:\Users\katherine.mercado.re\Desktop\PROY_dd2_FINAL_FUNCIONA\hdl\ctrl_tec.vhd
+l0
+L10
+V2hZ@0mheQeNN5B`1X0_kN1
+R8
+32
+Z40 !s108 1495808004.422000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\katherine.mercado.re\Desktop\PROY_dd2_FINAL_FUNCIONA\hdl\ctrl_tec.vhd|
+Z42 !s107 C:\Users\katherine.mercado.re\Desktop\PROY_dd2_FINAL_FUNCIONA\hdl\ctrl_tec.vhd|
+R12
+R13
+!s100 63:?<g<[BBOl^<cR8>fhl0
+!i10b 1
+Artl
+R1
+R2
+R3
+R4
+Z43 DEx4 work 8 ctrl_tec 0 22 2hZ@0mheQeNN5B`1X0_kN1
+l36
+L25
+Vbi8j;X2B3UbVd77]b;>=I0
+R8
+32
+R40
+R41
+R42
+R12
+R13
+!s100 i_nl0Tf5`mN?fGWG0l89Z1
+!i10b 1
+Egen_sec_alt_color
+Z44 w1495322226
+R1
+R2
+R3
+R4
+R5
+Z45 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/gen_sec_alt_color.vhd
+Z46 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/gen_sec_alt_color.vhd
+l0
+L10
+Vh8OU=WYmSIYWmhfIjW9<i2
+R8
+32
+Z47 !s108 1495806041.889000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/gen_sec_alt_color.vhd|
+Z49 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/gen_sec_alt_color.vhd|
+R12
+R13
+!s100 AB15hfbL9R1XWO6^KIi0_3
+!i10b 1
+Artl
+R1
+R2
+R3
+R4
+R22
+l24
+L20
+VXES;Y=mRKoVOP>mNiRBDK2
+R8
+32
+R47
+R48
+R49
+R12
+R13
+!s100 6Kdd1mEDRLRfUM[6l<Cn:1
+!i10b 1
+Ememoria_color
+Z50 w1495788420
+R1
+R2
+R3
+R4
+R5
+Z51 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/memoria_color.vhd
+Z52 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/memoria_color.vhd
+l0
+L11
+VY^1bVj`Smj:7niO51JjE?1
+R8
+32
+Z53 !s108 1495806042.139000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/memoria_color.vhd|
+Z55 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/memoria_color.vhd|
+R12
+R13
+!s100 2;e=BIj]7@nORzWk_d7Yc2
+!i10b 1
+Artl
+Z56 DPx9 altera_mf 20 altera_mf_components 0 22 dN>@>Mze:JEj3f_7zNO2S2
+Z57 DEx4 work 9 ram_2port 0 22 <?ie>^4CQieZ9<GFZ]09f2
+R1
+R2
+R3
+R4
+Z58 DEx4 work 13 memoria_color 0 22 Y^1bVj`Smj:7niO51JjE?1
+l36
+L29
+V26l8TX>NJ;m80lzb;=h9`3
+R8
+32
+R53
+R54
+R55
+R12
+R13
+!s100 H;[Z88F8dCCfdaECiZO132
+!i10b 1
+Epresentaciondisplays
+Z59 w1495808346
+R1
+R2
+R3
+R4
+R5
+Z60 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionDisplays.vhd
+Z61 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionDisplays.vhd
+l0
+L9
+VJKi_OoZV;d=UhLaGO@^h:3
+R8
+32
+Z62 !s108 1495808350.084000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionDisplays.vhd|
+Z64 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionDisplays.vhd|
+R12
+R13
+!s100 `@=jAUC27LBVZ:8;mb]D`0
+!i10b 1
+Artl
+R1
+R2
+R3
+R4
+Z65 DEx4 work 20 presentaciondisplays 0 22 JKi_OoZV;d=UhLaGO@^h:3
+l84
+L34
+VC<l=ajABYF]e];Pi[3G1P2
+R8
+32
+R62
+R63
+R64
+R12
+R13
+!s100 D?gmGznL0]Oec35ml7e982
+!i10b 1
+Epresentacionleds
+Z66 w1495535306
+R1
+R2
+R3
+R4
+R5
+Z67 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionLeds.vhd
+Z68 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionLeds.vhd
+l0
+L8
+Vl4=U>@PAY0dz3I@9iAlJf3
+R8
+32
+Z69 !s108 1495806042.811000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionLeds.vhd|
+Z71 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionLeds.vhd|
+R12
+R13
+!s100 9JoRQO=4UaGUF><<;<IP13
+!i10b 1
+Artl
+R1
+R2
+R3
+R4
+Z72 DEx4 work 16 presentacionleds 0 22 l4=U>@PAY0dz3I@9iAlJf3
+l26
+L24
+V4dk9Scce`JbQd]3`@9daN3
+R8
+32
+R69
+R70
+R71
+R12
+R13
+!s100 P0kBXn2haWXf=QQ>I[GU50
+!i10b 1
+Eram_2port
+Z73 w1495117472
+R56
+R3
+R4
+R5
+Z74 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd
+Z75 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd
+l0
+L43
+V<?ie>^4CQieZ9<GFZ]09f2
+R8
+32
+Z76 !s108 1495806043.045000
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd|
+Z78 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd|
+R12
+R13
+!s100 J5jAnb@WlK`OSbE]mCP;61
+!i10b 1
+Asyn
+R56
+R3
+R4
+R57
+l61
+L57
+VAk6^D^:9d79EV2n7Q:j<02
+R8
+32
+R76
+R77
+R78
+R12
+R13
+!s100 mn85Nn:Dk@IHzCizEKSM01
+!i10b 1
+Esimon
+Z79 w1495792556
+R3
+R4
+R5
+Z80 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd
+Z81 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd
+l0
+L4
+Vn3Dho2goCh?;iekE5PT=H2
+!s100 6IFMdP]fM=k7?A68oCF_o1
+R8
+32
+!i10b 1
+Z82 !s108 1495808354.553000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd|
+Z84 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd|
+R12
+R13
+Astruct
+R72
+R65
+R14
+Z85 DEx4 work 5 timer 0 22 Ojiii:E;Sl5<EERoAW8@z3
+R24
+R58
+R1
+R2
+R43
+R3
+R4
+Z86 DEx4 work 5 simon 0 22 n3Dho2goCh?;iekE5PT=H2
+l60
+L17
+Z87 V;FiECZ;=BC8?51znFjMD90
+Z88 !s100 mBQA1AM<`3^ZP8TRX01?J0
+R8
+32
+!i10b 1
+R82
+R83
+R84
+R12
+R13
+Esimon_sin_tec
+Z89 w1495806303
+R3
+R4
+R5
+Z90 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON_sin_tec.vhd
+Z91 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON_sin_tec.vhd
+l0
+L4
+VCc__7gLmk[og?M@[c[6a81
+R8
+32
+Z92 !s108 1495806303.446000
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON_sin_tec.vhd|
+Z94 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON_sin_tec.vhd|
+R12
+R13
+!s100 8K30C@dGz<Dzmzgzm1zl@1
+!i10b 1
+Astruct
+R72
+R65
+R14
+R85
+R24
+R1
+R2
+R58
+R3
+R4
+Z95 DEx4 work 13 simon_sin_tec 0 22 Cc__7gLmk[og?M@[c[6a81
+l59
+L21
+VT]5^Jf:1=mgehmUkmHolM2
+R8
+32
+R92
+R93
+R94
+R12
+R13
+!s100 7hR>2B7Mb]B0RlZ`<;TQd2
+!i10b 1
+Etb_control
+Z96 w1495395078
+R1
+R2
+R3
+R4
+Z97 dC:\Users\katherine.mercado.re\Desktop\Proy_dd2_FINAL_V1\modelsim
+Z98 8C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_CONTROL.vhd
+Z99 FC:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_CONTROL.vhd
+l0
+L7
+VVag5BG<8@JGVJkDz4Wzz13
+R8
+32
+Z100 !s108 1495538037.271000
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_CONTROL.vhd|
+Z102 !s107 C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_CONTROL.vhd|
+R12
+R13
+!s100 g;[CRiXWTa^=3H5n;MZOb3
+!i10b 1
+Atb
+DEx4 work 7 control 0 22 G3?3nJXRPkD`OMb:Z0?Rb3
+R1
+R2
+R3
+R4
+DEx4 work 10 tb_control 0 22 Vag5BG<8@JGVJkDz4Wzz13
+l40
+L10
+Vno5S0VK^SokP_G1V?I3Y03
+R8
+32
+R100
+R101
+R102
+R12
+R13
+!s100 K789]>4`dkGW6B`Ye<=el1
+!i10b 1
+Etb_control_modo_juego
+Z103 w1495384148
+R1
+R2
+R3
+R4
+Z104 dC:\Users\joseti99\Desktop\dd2_proy\Proyecto_dd2_V13\modelsim
+Z105 8C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_control_modo_juego.vhd
+Z106 FC:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_control_modo_juego.vhd
+l0
+L6
+V:N5n8bdc7[^R<nPTL;d^b2
+Z107 OV;C;10.1b;51
+32
+Z108 !s108 1495395378.396000
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_control_modo_juego.vhd|
+Z110 !s107 C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_control_modo_juego.vhd|
+R12
+R13
+!s100 SE1B[828Smn=fY9_S_O::1
+!i10b 1
+Atest
+DEx4 work 18 control_modo_juego 0 22 ^F[RgXCS:mKNHKjAe3Geo0
+R1
+R2
+R3
+R4
+DEx4 work 21 tb_control_modo_juego 0 22 :N5n8bdc7[^R<nPTL;d^b2
+l37
+L10
+VcVlYULQ7j><cmHkY_b@U50
+R107
+32
+R108
+R109
+R110
+R12
+R13
+!s100 JKQDm<NZ@^UDO<4n_[J<U3
+!i10b 1
+Etb_ctrl_tec
+Z111 w1495384688
+R1
+R2
+R3
+R4
+Z112 dC:\Users\katherine.mercado.re\Desktop\FINAL_V5- TB\modelsim
+Z113 8C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_ctrl_tec.vhd
+Z114 FC:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_ctrl_tec.vhd
+l0
+L5
+VX1<N9@9fV5K87>6KReWm]3
+R8
+32
+Z115 !s108 1495704491.072000
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_ctrl_tec.vhd|
+Z117 !s107 C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_ctrl_tec.vhd|
+R12
+R13
+!s100 Za6G8cJlUZ`Mod4z[l`M[0
+!i10b 1
+Atb
+R43
+R1
+R2
+R3
+R4
+DEx4 work 11 tb_ctrl_tec 0 22 X1<N9@9fV5K87>6KReWm]3
+l21
+L8
+VgS2;I=NQ>oaYcPYGR:T^a3
+R8
+32
+R115
+R116
+R117
+R12
+R13
+!s100 =KmG[Q2<nAfUFShz45SRn1
+!i10b 1
+Etb_simon
+Z118 w1495484800
+R1
+R2
+R3
+R4
+R97
+Z119 8C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_SIMON.vhd
+Z120 FC:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_SIMON.vhd
+l0
+L5
+VYbFm8i>U^jQ_:EdO<oQ1^1
+R8
+32
+Z121 !s108 1495538037.033000
+Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_SIMON.vhd|
+Z123 !s107 C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_SIMON.vhd|
+R12
+R13
+!s100 ZHBML`hN8E>7:66MH00L[3
+!i10b 1
+Atb
+R86
+R1
+R2
+R3
+R4
+DEx4 work 8 tb_simon 0 22 YbFm8i>U^jQ_:EdO<oQ1^1
+l18
+L8
+VnZ><OYd@^=a83m9GVYaKX0
+R8
+32
+R121
+R122
+R123
+R12
+R13
+!s100 iTJzK7;CNH]cYcGPgcho21
+!i10b 1
+Etb_simon_sin_tec
+Z124 w1495652948
+R1
+R2
+R3
+R4
+R112
+Z125 8C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_SIMON_sin_tec.vhd
+Z126 FC:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_SIMON_sin_tec.vhd
+l0
+L7
+VSGMnXIF=oh`0SRI7FDd>@0
+R8
+32
+Z127 !s108 1495702885.534000
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_SIMON_sin_tec.vhd|
+Z129 !s107 C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_SIMON_sin_tec.vhd|
+R12
+R13
+!s100 B6P5GY;DbcLV[UNWm4i:T3
+!i10b 1
+Atb
+R95
+R1
+R2
+R3
+R4
+DEx4 work 16 tb_simon_sin_tec 0 22 SGMnXIF=oh`0SRI7FDd>@0
+l25
+L10
+VGK_h=eKWhH:<DWcF0dRmk1
+R8
+32
+R127
+R128
+R129
+R12
+R13
+!s100 `T^R<V>0SR6j`=<8[BOIc3
+!i10b 1
+Etb_timer
+R73
+R1
+R2
+R3
+R4
+R97
+Z130 8C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_timer.vhd
+Z131 FC:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_timer.vhd
+l0
+L7
+VnGXAn5lFO3NNPMj6NZI?13
+R8
+32
+Z132 !s108 1495538036.806000
+Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_timer.vhd|
+Z134 !s107 C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_timer.vhd|
+R12
+R13
+!s100 2aJ_77H`8H70]_?JJ[dEL3
+!i10b 1
+Atb
+R85
+R1
+R2
+R3
+R4
+DEx4 work 8 tb_timer 0 22 nGXAn5lFO3NNPMj6NZI?13
+l18
+L10
+VA569^gS;fCfEonNd0FbgZ2
+R8
+32
+R132
+R133
+R134
+R12
+R13
+!s100 >Lg^J4gAEC[[Ze5[E=K193
+!i10b 1
+Etimer
+Z135 w1495696480
+R1
+R2
+R3
+R4
+R5
+Z136 8C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/timer.vhd
+Z137 FC:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/timer.vhd
+l0
+L12
+VOjiii:E;Sl5<EERoAW8@z3
+R8
+32
+Z138 !s108 1495806043.827000
+Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/timer.vhd|
+Z140 !s107 C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/timer.vhd|
+R12
+R13
+!s100 ^<HYDLc0Eo8MVGRD9YnS92
+!i10b 1
+Artl
+R1
+R2
+R3
+R4
+R85
+l31
+L23
+VM8Qk?TMz6m5_Mj4@eH78I0
+R8
+32
+R138
+R139
+R140
+R12
+R13
+!s100 BlXT26IUzL4zFMoOHac=;0
+!i10b 1

@@ -1,0 +1,133 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "fila[0]",
+					"strict" : false
+				},
+				{
+					"name" : "fila[1]",
+					"strict" : false
+				},
+				{
+					"name" : "fila[2]",
+					"strict" : false
+				},
+				{
+					"name" : "fila[3]",
+					"strict" : false
+				},
+				{
+					"name" : "presentacion[0]",
+					"strict" : false
+				},
+				{
+					"name" : "presentacion[1]",
+					"strict" : false
+				},
+				{
+					"name" : "presentacion[2]",
+					"strict" : false
+				},
+				{
+					"name" : "presentacion[3]",
+					"strict" : false
+				},
+				{
+					"name" : "presentacion[4]",
+					"strict" : false
+				},
+				{
+					"name" : "presentacion[5]",
+					"strict" : false
+				},
+				{
+					"name" : "presentacion[6]",
+					"strict" : false
+				},
+				{
+					"name" : "barra_leds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "barra_leds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "barra_leds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mux_display[0]",
+					"strict" : false
+				},
+				{
+					"name" : "mux_display[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mux_display[2]",
+					"strict" : false
+				},
+				{
+					"name" : "mux_display[3]",
+					"strict" : false
+				},
+				{
+					"name" : "mux_display[4]",
+					"strict" : false
+				},
+				{
+					"name" : "mux_display[5]",
+					"strict" : false
+				},
+				{
+					"name" : "mux_display[6]",
+					"strict" : false
+				},
+				{
+					"name" : "mux_display[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "nRst",
+					"strict" : false
+				},
+				{
+					"name" : "columna[3]",
+					"strict" : false
+				},
+				{
+					"name" : "columna[2]",
+					"strict" : false
+				},
+				{
+					"name" : "columna[1]",
+					"strict" : false
+				},
+				{
+					"name" : "columna[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

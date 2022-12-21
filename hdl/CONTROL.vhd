@@ -1,0 +1,98 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity CONTROL is 
+port( clk:				       	in std_logic;
+      nRst:					      in std_logic;
+      tecla: 				    	in std_logic_vector(3 downto 0);
+      tecla_valida_reg: 		   in std_logic;
+	    we_mem: in std_logic;                                             -- Indica que la escritura se ha realizado      
+      full_programado:		     in std_logic;                              -- Indica que se ha llegado a la longitud programada
+      fin_lectura_secuencia:	in std_logic;                              -- Se termina de leer toda la memoria
+      columna_color :        in std_logic_vector(1 downto 0);           -- Columna pulsada
+      d_out:                 in 	std_logic_vector(1 downto 0);          -- Color leído
+      tic_1s:				           	in std_logic;
+      flanco_bajada_col:		   in std_logic;                                 -- Tic se ha dejado de pulsar COLUMNA
+      tiempo_secuencia:		    in std_logic;                                 -- Forma de onda de 0.2 a '0' y 0.8 a '1'
+      
+      clr_ready:        buffer std_logic;
+      start: 					      buffer std_logic;	
+      clr_picked:       buffer std_logic_vector(1 downto 0);          -- Dato de entrada de la memoria
+      puntuacion_out: 		buffer std_logic_vector(13 downto 0);
+      rec: 					        buffer std_logic;                             -- Indica que se puede representar por los displays el record.
+	    recor: 					      buffer std_logic_vector(13 downto 0);
+	    modo: 					       buffer std_logic;                             -- Indica que se esta en el modo ConF 
+	    lon: 					        buffer std_logic;                             -- Indica que se puede representar por los displays la longitud
+	    parpadeo_fin: 		 	buffer std_logic;                             -- Indica que se puede mostrar la puntuacion FINAL
+	    color_salida:     buffer std_logic_vector(1 downto 0);          -- Color para la interfaz de salida		
+	    rd:						         buffer std_logic;
+	    nueva_lectura:    buffer std_logic;                             -- Indico nueva lectura, reseteo de addr
+	    mostrando_secuencia:      buffer std_logic;                     -- Activado durante el estado de mostrar secuencia
+	    longitud_programada_bin: 	buffer std_logic_vector(13 downto 0); -- Long prog BIN
+	    rst_time:			             	buffer std_logic;                     -- reset del temporizador
+	    reset:                    buffer std_logic;                     -- reset de memoria y de lon cuando se acaba el juego
+	    cuenta_num_mostrado:      buffer std_logic_vector(13 downto 0);
+      posicion_secuencia:		     buffer std_logic_vector(13 downto 0)  -- Cuenta del color por el que se va jugando
+    );  
+end entity;
+
+architecture struct of CONTROL is
+  signal color_ok :  std_logic;
+ 	signal pick_clr:				std_logic;
+	signal fin_partida: std_logic;
+	signal puntuacion_almacenada: 	std_logic_vector(13 downto 0);
+
+begin  
+	
+	CNTRL_CONFIG: entity work.control_configuracion(rtl) 
+		port map( clk					=> clk,
+				      nRst					=> nRst,
+				      flanco_bajada_col => flanco_bajada_col, 
+				      fin_partida			=> fin_partida,
+				      tecla					=> tecla,
+				      tecla_valida_reg		=> tecla_valida_reg,
+				      reset					=> reset,
+				      puntuacion_almacenada			=> puntuacion_almacenada,
+				      puntuacion_out		=> puntuacion_out,                   -- SALIDA
+				      recor					=> recor,                                  -- SALIDA
+				      start					=> start, 
+				      modo					=> modo,                                    -- SALIDA
+				      lon					=> lon,                                      -- SALIDA
+				      longitud_programada_bin	=> longitud_programada_bin,  -- SALIDA
+				      rec					=> rec,                                      -- SALIDA
+				      parpadeo_fin			=> parpadeo_fin);                     -- SALIDA
+
+	GEN_SEC: entity work.gen_sec_alt_color(rtl)
+		port map( clk 		 => clk,
+				      nRst		 => nRst,
+				      pick_clr	 => pick_clr,
+				      clr_picked => clr_picked,                            -- SALIDA
+				      clr_ready	 => clr_ready);
+
+	CNRTL_JUEGO: entity work.control_modo_juego(rtl)
+		port map(	clk 					=> clk,
+				     	nRst					=> nRst,
+				     	clr_ready				=> clr_ready,
+				     	we_mem					=> we_mem,
+				     	start					=> start, 
+					    full_programado 		=> full_programado,
+					    fin_lectura_secuencia	=> fin_lectura_secuencia,
+					    tic_1s					=> tic_1s,
+					    flanco_bajada_col		=> flanco_bajada_col,
+				     	tiempo_secuencia		=> tiempo_secuencia,
+					    columna_color			=> columna_color,
+				     	d_out					=> d_out,
+					    color_salida			=> color_salida,                       -- SALIDA
+					    pick_clr				=> pick_clr,
+				     	rst_time				=> rst_time,                              -- SALIDA
+				     	reset 					=> reset,                                  -- SALIDA
+				     	rd 						=> rd,                                       -- SALIDA
+				     	nueva_lectura			=> nueva_lectura,                     -- SALIDA
+				     	mostrando_secuencia		=> mostrando_secuencia,          -- SALIDA
+					    fin_partida				=> fin_partida,
+					    puntuacion_almacenada 				=> puntuacion_almacenada,
+					    cuenta_num_mostrado => cuenta_num_mostrado,
+					    posicion_secuencia		=> posicion_secuencia);           -- SALIDA
+
+
+end architecture ; -- struct

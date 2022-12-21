@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri May 26 16:19:53 2017
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : SIMON
+Top-level Entity Name : SIMON
+Family : MAX 10
+Total logic elements : 1,429
+    Total combinational functions : 1,381
+    Dedicated logic registers : 233
+Total registers : 233
+Total pins : 32
+Total virtual pins : 0
+Total memory bits : 32,768
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

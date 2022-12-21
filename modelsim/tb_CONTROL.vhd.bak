@@ -1,0 +1,260 @@
+-- Test bench DE CONTROL
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity tb_CONTROL is
+end entity;
+
+architecture tb of tb_CONTROL is
+  signal clk: std_logic;
+  signal nRst: std_logic;
+	signal tecla: 				    	 std_logic_vector(3 downto 0);
+  signal tecla_valida_reg: 		    std_logic;
+	signal we_mem:  std_logic;                                             -- Indica que la escritura se ha realizado      
+  signal full_programado:		      std_logic;                              -- Indica que se ha llegado a la longitud programada
+  signal fin_lectura_secuencia:	 std_logic;                              -- Se termina de leer toda la memoria
+  signal columna_color :         std_logic_vector(1 downto 0);           -- Columna pulsada
+  signal d_out:                  std_logic_vector(1 downto 0);           -- Color leído
+  signal tic_1s:				           	 std_logic;
+  signal flanco_bajada_col:		    std_logic;                                 -- Tic se ha dejado de pulsar COLUMNA
+  signal tiempo_secuencia:		     std_logic;                                 -- Forma de onda de 0.2 a '0' y 0.8 a '1'
+  
+  signal clr_picked:        std_logic_vector(1 downto 0);          -- Dato de entrada de la memoria
+  signal puntuacion_out: 		 std_logic_vector(13 downto 0);
+  signal rec: 					         std_logic;                             -- Indica que se puede representar por los displays el record.
+	signal recor: 					       std_logic_vector(13 downto 0);
+	signal modo: 					        std_logic;                             -- Indica que se esta en el modo ConF 
+	signal lon: 					         std_logic;                             -- Indica que se puede representar por los displays la longitud
+	signal parpadeo_fin: 		 	 std_logic;                             -- Indica que se puede mostrar la puntuacion FINAL
+	signal color_salida:      std_logic_vector(1 downto 0);          -- Color para la interfaz de salida		
+	signal rd:						          std_logic;
+	signal nueva_lectura:     std_logic;                             -- Indico nueva lectura, reseteo de addr
+	signal mostrando_secuencia:       std_logic;                     -- Activado durante el estado de mostrar secuencia
+	signal longitud_programada_bin: 	 std_logic_vector(13 downto 0); -- Long prog BIN
+	signal rst_time:			             	 std_logic;                     -- reset del temporizador
+	signal reset:                     std_logic;                     -- reset de memoria y de lon cuando se acaba el juego
+  signal posicion_secuencia:		      std_logic_vector(13 downto 0); -- Cuenta del color por el que se va jugando
+  constant tclk: time := 20 ns;
+  begin
+
+
+ dut: entity Work.CONTROL(struct)
+    port map(clk => clk,
+             nRst => nRst,
+             tecla => tecla,
+             tecla_valida_reg => tecla_valida_reg,
+             we_mem => we_mem,
+             full_programado => full_programado,
+             fin_lectura_secuencia => fin_lectura_secuencia,
+             columna_color => columna_color,
+             d_out => d_out,
+             tic_1s => tic_1s,
+             tiempo_secuencia => tiempo_secuencia,
+             flanco_bajada_col => flanco_bajada_col,
+             clr_picked => clr_picked,
+             puntuacion_out => puntuacion_out,
+             rec => rec,
+             recor => recor,
+             modo => modo,
+             lon => lon,
+             parpadeo_fin => parpadeo_fin,
+             color_salida => color_salida,
+             rd => rd,
+             nueva_lectura => nueva_lectura,
+             mostrando_secuencia => mostrando_secuencia,
+             longitud_programada_bin => longitud_programada_bin,
+             rst_time => rst_time,
+             reset => reset,
+             posicion_secuencia => posicion_secuencia);
+
+-- RELOJ
+reloj : process
+  begin 
+    clk <= '1';
+    wait for tclk/2;
+    clk <= '0';
+    wait for tclk/2;
+end process ;        -- Fin proceso generar reloj 
+
+
+-- TIC
+tic_1ss : process
+begin
+    tic_1s <= '0';
+    wait for tclk*9;
+    wait until clk'event and clk='1';
+    tic_1s <= '1';
+    wait for tclk;
+    wait until clk'event and clk='1';
+end process ;        -- Fin proceso generar tic
+
+-- TIEMPO SEC
+t_sec : process
+begin
+    tiempo_secuencia <= '0';
+    wait for tclk*2;
+    wait until clk'event and clk='1';
+    tiempo_secuencia <= '1';
+    wait for tclk*8;
+    wait until clk'event and clk='1';
+end process ;        -- Fin proceso generar t_sec
+
+
+--PRUEBAS
+prueba : process
+begin
+ -- Inicizalizacion asincrona
+ nRst <=  '0';
+ 
+ tecla <= (others => '0');
+ tecla_valida_reg <= '0'; 
+ we_mem <= '0';
+ full_programado <= '0';
+ fin_lectura_secuencia <= '0';
+ columna_color <= (others => '0');
+ d_out <= (others => '0');
+ flanco_bajada_col <= '0'; 
+ 
+ wait for 5*tclk;
+ wait until clk'event and clk='1';
+ nRst    <= '1';
+ -- Fin inicializacion asincrona
+
+ -- Inicializacion sincrona 
+ ---------------------------------------- CONF LONGITUD     
+ tecla <= "1101";
+ tecla_valida_reg <= '1';   
+ wait until clk'event and clk='1'; 
+ tecla_valida_reg <= '0';
+ wait for 6*tclk;
+ wait until clk'event and clk='1';
+ -- borramos lon 20
+ tecla <= "1011";
+ tecla_valida_reg <= '1';   
+ wait until clk'event and clk='1'; 
+ tecla_valida_reg <= '0';
+ wait for 4*tclk;
+ wait until clk'event and clk='1';
+ tecla <= "1011";
+ tecla_valida_reg <= '1';   
+ wait until clk'event and clk='1'; 
+ tecla_valida_reg <= '0';
+ wait for 4*tclk;
+ wait until clk'event and clk='1';
+ -- añadimos lon 4 y volvemos a iniConf
+ tecla <= "0100";
+ tecla_valida_reg <= '1';   
+ wait until clk'event and clk='1'; 
+ tecla_valida_reg <= '0';
+ wait for 2*tclk;
+ wait until clk'event and clk='1';
+ tecla <= "1110";
+ tecla_valida_reg <= '1';   
+ wait until clk'event and clk='1'; 
+ tecla_valida_reg <= '0';
+ wait for 4*tclk;
+ wait until clk'event and clk='1'; 
+ -- intentamos entrar en record ( no esta permitido )
+ tecla <= "1111";
+ tecla_valida_reg <= '1';   
+ wait until clk'event and clk='1'; 
+ tecla_valida_reg <= '0';
+ wait for 5*tclk;
+ wait until clk'event and clk='1'; 
+ ------------------------------------- Empezamos partida
+ tecla <= "1010";
+ tecla_valida_reg <= '1';   
+ wait until clk'event and clk='1'; 
+ tecla_valida_reg <= '0';
+ wait until clk'event and clk='1'; -- tarda 1ciclo en empezar start
+ wait until clk'event and clk='1'; -- tarda 1ciclo en coger color
+ we_mem <= '1';                    -- se coge el color y se escribe en la memoria
+ wait until clk'event and clk='1';
+ we_mem <= '0';
+ wait until clk'event and clk='1'; -- en este ciclo ya cambia de estado y se guarda solo un color.
+                                   -- se resetea el timer
+ wait until clk'event and clk='1'; -- se lee de la memoria    
+ d_out <= "10";
+ fin_lectura_secuencia <= '1';
+ wait for 9*tclk;
+ wait until clk'event and clk='1'; 
+ -- pasamos al estado de comprobar color por el usuario
+ wait for 6*tclk;                 -- almacenamos el color leido y esperamos a que se pulse
+ wait until clk'event and clk='1';
+ columna_color <= "10";                               
+ wait for 7*tclk;
+ wait until clk'event and clk='1'; 
+ columna_color <= "00"; 
+ flanco_bajada_col <= '1';
+ wait until clk'event and clk='1'; 
+ flanco_bajada_col <= '0';
+ wait for 6*tclk;
+ wait until clk'event and clk='1';
+ -- salimos del estado wait para añadir otro color
+ columna_color <= "11";                               
+ wait for 6*tclk;
+ wait until clk'event and clk='1'; 
+ columna_color <= "00"; 
+ flanco_bajada_col <= '1';
+ wait until clk'event and clk='1';
+ flanco_bajada_col <= '0';
+ wait until clk'event and clk='1';
+ we_mem <= '1';                    -- se coge el color y se escribe en la memoria
+ wait until clk'event and clk='1';
+ we_mem <= '0';
+ wait until clk'event and clk='1';
+ fin_lectura_secuencia <= '0';
+ -- se representan los dos colores
+ d_out <= "10";
+ wait for 9*tclk;
+ wait until clk'event and clk='1';
+ d_out <= "11";
+ wait until clk'event and clk='1';
+ fin_lectura_secuencia <= '1';
+ wait for 8*tclk;
+ wait until clk'event and clk='1';
+ wait for 5*tclk;
+ wait until clk'event and clk='1';
+ fin_lectura_secuencia <= '0';
+ wait until clk'event and clk='1';
+ wait until clk'event and clk='1';
+ wait until clk'event and clk='1';
+ wait until clk'event and clk='1'; 
+ -- pasamos al estado de comprobar color por el usuario
+ wait for 5*tclk;                 -- almacenamos el color leido y esperamos a que se pulse
+ wait until clk'event and clk='1';
+ d_out <= "10";
+ columna_color <= "10";           -- comprobamos primer color                      
+ wait for 7*tclk;
+ wait until clk'event and clk='1'; 
+ columna_color <= "00"; 
+ flanco_bajada_col <= '1';
+ wait until clk'event and clk='1';
+ flanco_bajada_col <= '0';
+ wait for 10*tclk;
+ wait until clk'event and clk='1'; 
+ columna_color <= "11";           -- comprobamos segundo color                      
+ wait for 7*tclk;
+ wait until clk'event and clk='1'; 
+ columna_color <= "00"; 
+ flanco_bajada_col <= '1';
+ wait until clk'event and clk='1';
+ flanco_bajada_col <= '0';
+ wait for 10*tclk;
+ wait until clk'event and clk='1'; 
+ 
+ 
+ wait for 30*tclk;
+ wait until clk'event and clk='1'; 
+ assert false
+ report "done"
+ severity failure;    
+ end process;
+
+end tb; 
+    
+    
+    
+     

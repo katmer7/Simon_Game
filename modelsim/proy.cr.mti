@@ -1,0 +1,1682 @@
+C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ram_2port.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2port
+-- Compiling architecture SYN of ram_2port
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/control_modo_juego.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/control_modo_juego.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_modo_juego
+-- Compiling architecture rtl of control_modo_juego
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/CONTROL.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/CONTROL.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL
+-- Compiling architecture struct of CONTROL
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity control_configuracion
+-- Loading entity gen_sec_alt_color
+-- Loading entity control_modo_juego
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/ctrl_tec.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/ctrl_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ctrl_tec
+-- Compiling architecture rtl of ctrl_tec
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/ram_2port.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/ram_2port.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2port
+-- Compiling architecture SYN of ram_2port
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/ram_2port.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/ram_2port.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2port
+-- Compiling architecture SYN of ram_2port
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON_sin_tec.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON_sin_tec.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON_sin_tec
+-- Compiling architecture struct of SIMON_sin_tec
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_timer.vhd {1 {vcom -work work -2002 -explicit C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_timer.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_timer
+-- Compiling architecture tb of tb_timer
+-- Loading entity timer
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_CONTROL.vhd {1 {vcom -work work -2002 -explicit C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_CONTROL.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_CONTROL
+-- Compiling architecture tb of tb_CONTROL
+-- Loading entity CONTROL
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/ctrl_tec.vhd {1 {vcom -work work -2002 -explicit C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/ctrl_tec.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ctrl_tec
+-- Compiling architecture rtl of ctrl_tec
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/presentacionDisplays.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/presentacionDisplays.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionDisplays
+-- Compiling architecture rtl of presentacionDisplays
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/gen_sec_alt_color.vhd {1 {vcom -work work -2002 -explicit C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/gen_sec_alt_color.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gen_sec_alt_color
+-- Compiling architecture rtl of gen_sec_alt_color
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/SIMON_sin_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON_sin_tec
+-- Compiling architecture struct of SIMON_sin_tec
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/SIMON_sin_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON_sin_tec
+-- Compiling architecture struct of SIMON_sin_tec
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/control_modo_juego.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/control_modo_juego.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_modo_juego
+-- Compiling architecture rtl of control_modo_juego
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/bin_to_bcd.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/bin_to_bcd.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bin_to_bcd
+-- Compiling architecture rtl of bin_to_bcd
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/presentacionLeds.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/presentacionLeds.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionLeds
+-- Compiling architecture rtl of presentacionLeds
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/timer.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/timer.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_configuracion.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_configuracion.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_configuracion
+-- Compiling architecture rtl of control_configuracion
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/ram_2port.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/ram_2port.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2port
+-- Compiling architecture SYN of ram_2port
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/control_modo_juego.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/control_modo_juego.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_modo_juego
+-- Compiling architecture rtl of control_modo_juego
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/ctrl_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/ctrl_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ctrl_tec
+-- Compiling architecture rtl of ctrl_tec
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_ctrl_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_ctrl_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_ctrl_tec
+-- Compiling architecture tb of tb_ctrl_tec
+-- Loading entity ctrl_tec
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/SIMON.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/SIMON.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON
+-- Compiling architecture struct of SIMON
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl_tec
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/CONTROL.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/CONTROL.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL
+-- Compiling architecture struct of CONTROL
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity control_configuracion
+-- Loading entity gen_sec_alt_color
+-- Loading entity control_modo_juego
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/control_configuracion.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/control_configuracion.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_configuracion
+-- Compiling architecture rtl of control_configuracion
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/memoria_color.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/memoria_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memoria_color
+-- Compiling architecture rtl of memoria_color
+-- Loading package altera_mf_components
+-- Loading entity ram_2port
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/control_configuracion.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/control_configuracion.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_configuracion
+-- Compiling architecture rtl of control_configuracion
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_control_modo_juego.vhd {1 {vcom -work work -2002 -explicit C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_control_modo_juego.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_control_modo_juego
+-- Compiling architecture test of tb_control_modo_juego
+-- Loading entity control_modo_juego
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_SIMON_sin_tec.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_SIMON_sin_tec
+-- Compiling architecture tb of tb_SIMON_sin_tec
+-- Loading entity SIMON_sin_tec
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/CONTROL.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/CONTROL.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL
+-- Compiling architecture struct of CONTROL
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity control_configuracion
+-- Loading entity gen_sec_alt_color
+-- Loading entity control_modo_juego
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/control_modo_juego.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/control_modo_juego.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_modo_juego
+-- Compiling architecture rtl of control_modo_juego
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/ram_2port.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/ram_2port.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2port
+-- Compiling architecture SYN of ram_2port
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/control_modo_juego.vhd {1 {vcom -work work -2002 -explicit {C:\Users\joseti99\Desktop\dd2_proy\Proyecto_dd2_V13\hdl\control_modo_juego.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_modo_juego
+-- Compiling architecture rtl of control_modo_juego
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionLeds.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionLeds.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionLeds
+-- Compiling architecture rtl of presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/CONTROL.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/CONTROL.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL
+-- Compiling architecture struct of CONTROL
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity control_configuracion
+-- Loading entity gen_sec_alt_color
+-- Loading entity control_modo_juego
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/gen_sec_alt_color.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/gen_sec_alt_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gen_sec_alt_color
+-- Compiling architecture rtl of gen_sec_alt_color
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/CONTROL.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/CONTROL.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL
+-- Compiling architecture struct of CONTROL
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity control_configuracion
+-- Loading entity gen_sec_alt_color
+-- Loading entity control_modo_juego
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/ram_2port.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/ram_2port.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2port
+-- Compiling architecture SYN of ram_2port
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/ram_2port.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/ram_2port.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2port
+-- Compiling architecture SYN of ram_2port
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/presentacionDisplays.vhd {1 {vcom -work work -2002 -explicit C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/presentacionDisplays.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionDisplays
+-- Compiling architecture rtl of presentacionDisplays
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/ram_2port.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/ram_2port.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2port
+-- Compiling architecture SYN of ram_2port
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/memoria_color.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/memoria_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memoria_color
+-- Compiling architecture rtl of memoria_color
+-- Loading package altera_mf_components
+-- Loading entity ram_2port
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/modelsim/tb_SIMON_sin_tec.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/modelsim/tb_SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_SIMON_sin_tec
+-- Compiling architecture tb of tb_SIMON_sin_tec
+-- Loading entity SIMON_sin_tec
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/control_modo_juego.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/control_modo_juego.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_modo_juego
+-- Compiling architecture rtl of control_modo_juego
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_ctrl_tec.vhd {1 {vcom -work work -2002 -explicit C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/modelsim/tb_ctrl_tec.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_ctrl_tec
+-- Compiling architecture tb of tb_ctrl_tec
+-- Loading entity ctrl_tec
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/bin_to_bcd.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/bin_to_bcd.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bin_to_bcd
+-- Compiling architecture rtl of bin_to_bcd
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/presentacionLeds.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/presentacionLeds.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionLeds
+-- Compiling architecture rtl of presentacionLeds
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/gen_sec_alt_color.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/gen_sec_alt_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gen_sec_alt_color
+-- Compiling architecture rtl of gen_sec_alt_color
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/ctrl_tec.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/ctrl_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ctrl_tec
+-- Compiling architecture rtl of ctrl_tec
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/memoria_color.vhd {1 {vcom -work work -2002 -explicit C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/memoria_color.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memoria_color
+-- Compiling architecture rtl of memoria_color
+-- Loading package altera_mf_components
+-- Loading entity ram_2port
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/control_configuracion.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/control_configuracion.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_configuracion
+-- Compiling architecture rtl of control_configuracion
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/presentacionLeds.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/presentacionLeds.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionLeds
+-- Compiling architecture rtl of presentacionLeds
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/presentacionDisplays.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/presentacionDisplays.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionDisplays
+-- Compiling architecture rtl of presentacionDisplays
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/bin_to_bcd.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/bin_to_bcd.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bin_to_bcd
+-- Compiling architecture rtl of bin_to_bcd
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_modo_juego.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/control_modo_juego.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_modo_juego
+-- Compiling architecture rtl of control_modo_juego
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/control_configuracion.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/control_configuracion.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_configuracion
+-- Compiling architecture rtl of control_configuracion
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/modelsim/tb_SIMON_sin_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/modelsim/tb_SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_SIMON_sin_tec
+-- Compiling architecture tb of tb_SIMON_sin_tec
+-- Loading entity SIMON_sin_tec
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/gen_sec_alt_color.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/gen_sec_alt_color.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gen_sec_alt_color
+-- Compiling architecture rtl of gen_sec_alt_color
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_SIMON_sin_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/modelsim/tb_SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_SIMON_sin_tec
+-- Compiling architecture tb of tb_SIMON_sin_tec
+-- Loading entity SIMON_sin_tec
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/timer.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/timer.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/memoria_color.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/memoria_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memoria_color
+-- Compiling architecture rtl of memoria_color
+-- Loading package altera_mf_components
+-- Loading entity ram_2port
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/timer.vhd {1 {vcom -work work -2002 -explicit C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/timer.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/presentacionLeds.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/presentacionLeds.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionLeds
+-- Compiling architecture rtl of presentacionLeds
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/ctrl_tec.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/ctrl_tec.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ctrl_tec
+-- Compiling architecture rtl of ctrl_tec
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/SIMON.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/SIMON.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON
+-- Compiling architecture struct of SIMON
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl_tec
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/bin_to_bcd.vhd {1 {vcom -work work -2002 -explicit {C:\Users\joseti99\Desktop\dd2_proy\Proyecto_dd2_V13\hdl\bin_to_bcd.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bin_to_bcd
+-- Compiling architecture rtl of bin_to_bcd
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/presentacionLeds.vhd {1 {vcom -work work -2002 -explicit {C:\Users\joseti99\Desktop\dd2_proy\Proyecto_dd2_V13\hdl\presentacionLeds.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionLeds
+-- Compiling architecture rtl of presentacionLeds
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/presentacionDisplays.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/presentacionDisplays.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionDisplays
+-- Compiling architecture rtl of presentacionDisplays
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/control_configuracion.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/control_configuracion.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_configuracion
+-- Compiling architecture rtl of control_configuracion
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/SIMON.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/SIMON.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON
+-- Compiling architecture struct of SIMON
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl_tec
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/memoria_color.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/memoria_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memoria_color
+-- Compiling architecture rtl of memoria_color
+-- Loading package altera_mf_components
+-- Loading entity ram_2port
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/control_modo_juego.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/control_modo_juego.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_modo_juego
+-- Compiling architecture rtl of control_modo_juego
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/ram_2port.vhd {1 {vcom -work work -2002 -explicit C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/ram_2port.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2port
+-- Compiling architecture SYN of ram_2port
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/timer.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/timer.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/memoria_color.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/memoria_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memoria_color
+-- Compiling architecture rtl of memoria_color
+-- Loading package altera_mf_components
+-- Loading entity ram_2port
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_SIMON.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_SIMON.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_SIMON
+-- Compiling architecture tb of tb_SIMON
+-- Loading entity SIMON
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/gen_sec_alt_color.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/gen_sec_alt_color.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gen_sec_alt_color
+-- Compiling architecture rtl of gen_sec_alt_color
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/presentacionLeds.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/presentacionLeds.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionLeds
+-- Compiling architecture rtl of presentacionLeds
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/ctrl_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/ctrl_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ctrl_tec
+-- Compiling architecture rtl of ctrl_tec
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/ctrl_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/ctrl_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ctrl_tec
+-- Compiling architecture rtl of ctrl_tec
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/SIMON.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/SIMON.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON
+-- Compiling architecture struct of SIMON
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl_tec
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/gen_sec_alt_color.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/gen_sec_alt_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gen_sec_alt_color
+-- Compiling architecture rtl of gen_sec_alt_color
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/gen_sec_alt_color.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/gen_sec_alt_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gen_sec_alt_color
+-- Compiling architecture rtl of gen_sec_alt_color
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/presentacionDisplays.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/presentacionDisplays.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionDisplays
+-- Compiling architecture rtl of presentacionDisplays
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/memoria_color.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/memoria_color.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memoria_color
+-- Compiling architecture rtl of memoria_color
+-- Loading package altera_mf_components
+-- Loading entity ram_2port
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/presentacionDisplays.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/presentacionDisplays.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionDisplays
+-- Compiling architecture rtl of presentacionDisplays
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/timer.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/timer.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/CONTROL.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL
+-- Compiling architecture struct of CONTROL
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity control_configuracion
+-- Loading entity gen_sec_alt_color
+-- Loading entity control_modo_juego
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/ctrl_tec.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/ctrl_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ctrl_tec
+-- Compiling architecture rtl of ctrl_tec
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/control_configuracion.vhd {1 {vcom -work work -2002 -explicit {C:\Users\joseti99\Desktop\dd2_proy\Proyecto_dd2_V13\hdl\control_configuracion.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_configuracion
+-- Compiling architecture rtl of control_configuracion
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/control_configuracion.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/control_configuracion.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_configuracion
+-- Compiling architecture rtl of control_configuracion
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/CONTROL.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/CONTROL.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL
+-- Compiling architecture struct of CONTROL
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity control_configuracion
+-- Loading entity gen_sec_alt_color
+-- Loading entity control_modo_juego
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/timer.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/timer.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/control_modo_juego.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/control_modo_juego.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_modo_juego
+-- Compiling architecture rtl of control_modo_juego
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/control_modo_juego.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/control_modo_juego.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_modo_juego
+-- Compiling architecture rtl of control_modo_juego
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/bin_to_bcd.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/bin_to_bcd.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bin_to_bcd
+-- Compiling architecture rtl of bin_to_bcd
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/SIMON_sin_tec.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON_sin_tec
+-- Compiling architecture struct of SIMON_sin_tec
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/presentacionDisplays.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/presentacionDisplays.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionDisplays
+-- Compiling architecture rtl of presentacionDisplays
+
+} {} {}} C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/CONTROL.vhd {1 {vcom -work work -2002 -explicit C:/Users/joseti99/Desktop/dd2_proy/Proyecto_dd2_V13/hdl/CONTROL.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL
+-- Compiling architecture struct of CONTROL
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity control_configuracion
+-- Loading entity gen_sec_alt_color
+-- Loading entity control_modo_juego
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/CONTROL.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/CONTROL.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL
+-- Compiling architecture struct of CONTROL
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity control_configuracion
+-- Loading entity gen_sec_alt_color
+-- Loading entity control_modo_juego
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/timer.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/timer.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/modelsim/tb_SIMON_sin_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/modelsim/tb_SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_SIMON_sin_tec
+-- Compiling architecture tb of tb_SIMON_sin_tec
+-- Loading entity SIMON_sin_tec
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_timer.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/modelsim/tb_timer.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_timer
+-- Compiling architecture tb of tb_timer
+-- Loading entity timer
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/SIMON.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON
+-- Compiling architecture struct of SIMON
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl_tec
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/gen_sec_alt_color.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/gen_sec_alt_color.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gen_sec_alt_color
+-- Compiling architecture rtl of gen_sec_alt_color
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/presentacionDisplays.vhd} {1 {vcom -work work -2002 -explicit {C:\Users\katherine.mercado.re\Desktop\FINAL_V6- TB\hdl\presentacionDisplays.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionDisplays
+-- Compiling architecture rtl of presentacionDisplays
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/timer.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/timer.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/ctrl_tec.vhd {1 {vcom -work work -2002 -explicit {C:\Users\katherine.mercado.re\Desktop\PROY_dd2_FINAL_FUNCIONA\hdl\ctrl_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ctrl_tec
+-- Compiling architecture rtl of ctrl_tec
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/memoria_color.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/memoria_color.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memoria_color
+-- Compiling architecture rtl of memoria_color
+-- Loading package altera_mf_components
+-- Loading entity ram_2port
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/CONTROL.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/CONTROL.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL
+-- Compiling architecture struct of CONTROL
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity control_configuracion
+-- Loading entity gen_sec_alt_color
+-- Loading entity control_modo_juego
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/SIMON.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/SIMON.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON
+-- Compiling architecture struct of SIMON
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl_tec
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/SIMON.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/SIMON.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON
+-- Compiling architecture struct of SIMON
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl_tec
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/control_modo_juego.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/control_modo_juego.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_modo_juego
+-- Compiling architecture rtl of control_modo_juego
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/gen_sec_alt_color.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/gen_sec_alt_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gen_sec_alt_color
+-- Compiling architecture rtl of gen_sec_alt_color
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/SIMON_sin_tec.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON_sin_tec
+-- Compiling architecture struct of SIMON_sin_tec
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/SIMON_sin_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON_sin_tec
+-- Compiling architecture struct of SIMON_sin_tec
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/bin_to_bcd.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/bin_to_bcd.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bin_to_bcd
+-- Compiling architecture rtl of bin_to_bcd
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/presentacionLeds.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/presentacionLeds.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionLeds
+-- Compiling architecture rtl of presentacionLeds
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/bin_to_bcd.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/bin_to_bcd.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bin_to_bcd
+-- Compiling architecture rtl of bin_to_bcd
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/memoria_color.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/memoria_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memoria_color
+-- Compiling architecture rtl of memoria_color
+-- Loading package altera_mf_components
+-- Loading entity ram_2port
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/memoria_color.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/memoria_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memoria_color
+-- Compiling architecture rtl of memoria_color
+-- Loading package altera_mf_components
+-- Loading entity ram_2port
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/SIMON_sin_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON_sin_tec
+-- Compiling architecture struct of SIMON_sin_tec
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/gen_sec_alt_color.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/SIMON.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON
+-- Compiling architecture struct of SIMON
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl_tec
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/presentacionDisplays.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/presentacionDisplays.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionDisplays
+-- Compiling architecture rtl of presentacionDisplays
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/ram_2port.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/ram_2port.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2port
+-- Compiling architecture SYN of ram_2port
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/CONTROL.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/CONTROL.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CONTROL
+-- Compiling architecture struct of CONTROL
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity control_configuracion
+-- Loading entity gen_sec_alt_color
+-- Loading entity control_modo_juego
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/bin_to_bcd.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/bin_to_bcd.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bin_to_bcd
+-- Compiling architecture rtl of bin_to_bcd
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/control_configuracion.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/control_configuracion.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_configuracion
+-- Compiling architecture rtl of control_configuracion
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/ctrl_tec.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/ctrl_tec.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ctrl_tec
+-- Compiling architecture rtl of ctrl_tec
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/SIMON.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/SIMON.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON
+-- Compiling architecture struct of SIMON
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl_tec
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/presentacionLeds.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/presentacionLeds.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionLeds
+-- Compiling architecture rtl of presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/control_configuracion.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/control_configuracion.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_configuracion
+-- Compiling architecture rtl of control_configuracion
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/ram_2port.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/ram_2port.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_2port
+-- Compiling architecture SYN of ram_2port
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/timer.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/timer.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/ctrl_tec.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/ctrl_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ctrl_tec
+-- Compiling architecture rtl of ctrl_tec
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/SIMON.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/SIMON.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON
+-- Compiling architecture struct of SIMON
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl_tec
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/timer.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/timer.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/timer.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/timer.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity timer
+-- Compiling architecture rtl of timer
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionDisplays.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/PROY_dd2_FINAL_FUNCIONA/hdl/presentacionDisplays.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionDisplays
+-- Compiling architecture rtl of presentacionDisplays
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/bin_to_bcd.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V5- TB/hdl/bin_to_bcd.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bin_to_bcd
+-- Compiling architecture rtl of bin_to_bcd
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/memoria_color.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL_V1/hdl/memoria_color.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity memoria_color
+-- Compiling architecture rtl of memoria_color
+-- Loading package altera_mf_components
+-- Loading entity ram_2port
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/gen_sec_alt_color.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/gen_sec_alt_color.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity gen_sec_alt_color
+-- Compiling architecture rtl of gen_sec_alt_color
+
+} {} {}} {{C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/SIMON_sin_tec.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/SIMON_sin_tec.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON_sin_tec
+-- Compiling architecture struct of SIMON_sin_tec
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} {{C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/SIMON.vhd}} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V3 - TB/hdl/SIMON.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity SIMON
+-- Compiling architecture struct of SIMON
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity ctrl_tec
+-- Loading entity memoria_color
+-- Loading entity CONTROL
+-- Loading entity timer
+-- Loading entity bin_to_bcd
+-- Loading entity presentacionDisplays
+-- Loading entity presentacionLeds
+
+} {} {}} C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/control_configuracion.vhd {1 {vcom -work work -2002 -explicit C:/Users/katherine.mercado.re/Desktop/Proy_dd2_FINAL/hdl/control_configuracion.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity control_configuracion
+-- Compiling architecture rtl of control_configuracion
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/bin_to_bcd.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/bin_to_bcd.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bin_to_bcd
+-- Compiling architecture rtl of bin_to_bcd
+
+} {} {}} {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/presentacionLeds.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/joseti99/Desktop/dd2_proy/FINAL_V5- TB/hdl/presentacionLeds.vhd}
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionLeds
+-- Compiling architecture rtl of presentacionLeds
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/bin_to_bcd.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/bin_to_bcd.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bin_to_bcd
+-- Compiling architecture rtl of bin_to_bcd
+
+} {} {}} {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/presentacionLeds.vhd} {1 {vcom -work work -2002 -explicit {C:/Users/katherine.mercado.re/Desktop/FINAL_V6- TB/hdl/presentacionLeds.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity presentacionLeds
+-- Compiling architecture rtl of presentacionLeds
+
+} {} {}}

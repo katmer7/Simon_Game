@@ -39,3 +39,7 @@ This project is executed in Modelsim and Quartus Prime.
 ## References
 
 * Cyclone II FPGAs: https://www.intel.com/content/www/us/en/support/programmable/support-resources/devices/cyclone-ii-support.html
+
+* Quartus Prime Software: https://www.intel.com/content/www/us/en/products/details/fpga/development-tools/quartus-prime.html
+
+* ModelSim Software: https://www.intel.com/content/www/us/en/software-kit/750368/modelsim-intel-fpgas-standard-edition-software-version-18-1.html

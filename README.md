@@ -11,7 +11,9 @@ and repeat them in the correct order by pressing the corresponding colored pad. 
 
 This project replicates the functionality of Simon game with extra features in Cyclone II FPGA with the addition of a keyboard interface. Due to resource constraints, three colors are considered which are represented with green, red and yellow LEDs.
 
-When the FPGA board is programmed, the initial state is a configuration menu. This menu is accessed with different keys while the corresponding information is displayed in a 4 digit 7-segment display. 
+When the FPGA board is programmed, the initial state is a configuration menu. This menu is accessed with different keys while the corresponding information is displayed in a 4 digit 7-segment display.  
+
+<br>  
 
 |Configuration Mode <br> (Game has not been started) | Game Over <br> (The player won or lost the game)| 
 |    :---     |     :---      |    
@@ -20,6 +22,8 @@ When the FPGA board is programmed, the initial state is a configuration menu. Th
 | E -> Go Back to Configuration Mode If The Player Is In Any Of The Previous Options |
 | A -> Start Game |
 
+ <br> 
+ 
 Once the player starts the game (after pressing A), the first color is shown in one of the three LEDs. The player introduces the color and if this is correct, a new color is randomly generated, showing the previous one with the new added color to the player. Thereby, a sequence of colors is generated as long as the player is guessing  all of them. If the player reaches the maximum value of the sequence or introduces a incorrect color the game is over. 
 
 <img src="https://user-images.githubusercontent.com/120545621/219884444-b9930574-78b7-4347-a2a1-0ad4bd0990d3.png" width="20" height="20"/> Design Characteristics
